@@ -5,26 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PATI GUALEYO - Acceso Directo</title>
 
-    <!-- 1. Enlace CLAVE al Manifiesto de la Web App (PWA) -->
-    <link rel="manifest" href="manifest.json">
+     <link rel="manifest" href="manifest.json">
 
-    <!-- 2. Metadatos de iOS para el "Add to Home Screen" -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="PATI GUALEYO">
     
-    <!-- Icono de iOS (RUTA CORREGIDA A icon-192.png) -->
-    <link rel="apple-touch-icon" href="icon-192.png">
+       <link rel="apple-touch-icon" href="icon-192.png">
 
-    <!-- 3. Tema de color (para la barra de estado en Android) -->
-    <meta name="theme-color" content="#21b643"> <!-- Color verde Linktree/Marca -->
+     <meta name="theme-color" content="#21b643"> <!-- Color verde Linktree/Marca -->
 
-    <!-- Carga de Tailwind CSS para un look simple y responsivo -->
-    <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        /* Usamos la fuente Inter, estándar en Google */
-        body { font-family: 'Inter', sans-serif; }
+       body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 text-gray-800">
@@ -48,8 +42,7 @@
     </div>
 
     <script>
-        // *** 1. TU URL DE DESTINO (Linktree) ***
-        const TARGET_URL = "https://linktr.ee/patigualeyo"; 
+            const TARGET_URL = "https://linktr.ee/patigualeyo"; 
 
         document.getElementById('redirect-link').href = TARGET_URL;
 
