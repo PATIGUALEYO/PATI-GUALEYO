@@ -1,24 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Manifest e ícono correctos -->
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="image/png" href="icon-512.png">
-
-  <!-- Espera un momento para que cargue el PWA antes de redirigir -->
-  <script>
-    // Esperamos 800ms para que el manifest registre el icono antes de redirigir
-    setTimeout(() => {
-      window.location.href = "https://linktr.ee/patigualeyo";
-    }, 800);
-  </script>
-
-  <title>PATI GUALEYO</title>
-</head>
-<body>
-  <h1 style="font-family:sans-serif;">Cargando…</h1>
-</body>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; URL='https://linktr.ee/patigualeyo'" />
+    <link rel="manifest" href="manifest.json">
+    <script src="pwa.js"></script>
+  </head>
+  <body></body>
 </html>

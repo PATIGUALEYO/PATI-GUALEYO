@@ -1,15 +1,12 @@
 {
-  "name": "PATI GUALEYO",
-  "short_name": "Pati",
-  "start_url": "/",
+  "name": "Pati Gualeyo",
+  "short_name": "Pati Gualeyo",
+  "start_url": "https://linktr.ee/patigualeyo",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
