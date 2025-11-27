@@ -2,7 +2,7 @@
 "name": "PATI GUALEYO",
 "short_name": "PATI GUALEYO",
 "description": "Acceso directo a las redes sociales y Linktree de PATI GUALEYO.",
-"start_url": "/index.html",
+"start_url": "https://linktr.ee/patigualeyo/index.html",
 "display": "standalone",
 "background_color": "#ffffff",
 "theme_color": "#21b643",
