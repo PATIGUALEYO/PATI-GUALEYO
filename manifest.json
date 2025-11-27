@@ -8,12 +8,12 @@
   "description": "Acceso directo rápido a todos los enlaces de PATI GUALEYO (Linktree).",
   "icons": [
     {
-      "src": "image_9561fc.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "image_955a5a.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
