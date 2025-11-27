@@ -5,33 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PATI GUALEYO - Acceso Directo</title>
 
-    <!-- 1. Enlace al Manifiesto de la Web App (PWA) -->
-    <link rel="manifest" href="manifest.json">
+      <link rel="manifest" href="manifest.json">
 
-    <!-- 2. Metadatos de iOS para el "Add to Home Screen" -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="PATI GUALEYO">
     
-    <!-- Icono de iOS (ruta de tu icono más pequeño) -->
-    <link rel="apple-touch-icon" href="icono-192.png">
+     <link rel="apple-touch-icon" href="icono-192.png">
 
-    <!-- 3. Tema de color (para la barra de estado en Android) -->
     <meta name="theme-color" content="#21b643"> <!-- Color verde Linktree/Marca -->
 
-    <!-- Carga de Tailwind CSS para un look simple y responsivo -->
-    <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        /* Usamos la fuente Inter, estándar en Google */
-        body { font-family: 'Inter', sans-serif; }
+          body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 text-gray-800">
 
     <div id="content" class="text-center p-6 bg-white rounded-xl shadow-2xl max-w-sm w-full">
-        <!-- Tu logo real con la ruta correcta (usando el más grande) -->
-        <img src="icon-512.png" alt="Logo Patí Gualeyo" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-green-500 object-cover">
+          <img src="icon-512.png" alt="Logo Patí Gualeyo" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-green-500 object-cover">
         
         <h1 class="text-xl font-bold mb-2">PATI GUALEYO</h1>
         <p class="text-sm text-gray-600 mb-4">Redirigiendo a Linktree en breve...</p>
@@ -48,15 +41,13 @@
     </div>
 
     <script>
-        // *** 1. TU URL DE DESTINO (Linktree) ***
-        const TARGET_URL = "https://linktr.ee/patigualeyo"; 
+            const TARGET_URL = "https://linktr.ee/patigualeyo"; 
 
         document.getElementById('redirect-link').href = TARGET_URL;
 
-        // Redirige después de 2 segundos para dar tiempo a cargar el manifiesto
-        setTimeout(() => {
+                setTimeout(() => {
             window.location.replace(TARGET_URL);
-        }, 2000); 
+        }, 3000); 
     </script>
 </body>
 </html>
