@@ -24,8 +24,7 @@
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 text-gray-800">
 
     <div id="content" class="text-center p-6 bg-white rounded-xl shadow-2xl max-w-sm w-full">
-        <!-- Tu logo real con la RUTA CORREGIDA (usando el más grande, icon-512.jpg) -->
-        <img src="icon-512.jpg" alt="Logo Patí Gualeyo" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-green-500 object-cover">
+             <img src="icon-512.jpg" alt="Logo Patí Gualeyo" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-green-500 object-cover">
         
         <h1 class="text-xl font-bold mb-2">PATI GUALEYO</h1>
         <p class="text-sm text-gray-600 mb-4">Redirigiendo a Linktree en breve...</p>
@@ -36,9 +35,7 @@
             Si la redirección no funciona, haz click <a id="redirect-link" href="#" class="text-green-600 hover:text-green-800 font-semibold">aquí</a>.
         </p>
 
-        <p class="text-xs mt-4 p-2 bg-green-50 border-l-4 border-green-600 rounded">
-            ✅ Para que aparezca como App: En el navegador, busca la opción **"Agregar a pantalla de inicio"** o **"Instalar aplicación"**.
-        </p>
+       
     </div>
 
     <script>
@@ -46,7 +43,7 @@
 
         document.getElementById('redirect-link').href = TARGET_URL;
 
-        // Redirige después de 5 segundos para dar tiempo a cargar el manifiesto
+        // 
         setTimeout(() => {
             window.location.replace(TARGET_URL);
         }, 5000); 
